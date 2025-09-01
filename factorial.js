@@ -1,4 +1,4 @@
-//Write a function that calculate factorail of given number
+//Write a function that calculate factorial of given number
 
 function factorial(number){
     if(number < 0 || typeof number !== "number"){
