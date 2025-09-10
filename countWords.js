@@ -1,3 +1,9 @@
+//Write a function that counts and return the number of words in  sentence
+/*Input: A sentence
+Return: number of words
+Example: "This is a sentence":4 words*/
+
+
 function countWords(sentence){
     console.log("Before trim:",sentence);
     sentence = sentence.trim();
