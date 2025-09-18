@@ -5,6 +5,10 @@
 Input: A positive number*/
 
 function FizzBuzz(inputNumber){
+    if(isNaN(inputNumber) || inputNumber<=0){
+        throw new Error("Invalid input only positive integers are allowed!");
+    }
+    
     for(let i=1; i<=inputNumber; i++){
         if(i % 3===0 && i % 5 === 0){
             console.log("FizzBuzz");
